@@ -1,9 +1,28 @@
-body {
+:root {
 	--base-size: 12px;
-	--gutter: calc(3 * var(--base-size));
+	--gutter-size: calc(3 * var(--base-size));
 
 	--color--primary: black;
 	--color--secondary: rgb(177, 0, 0);
 	--color--background: white;
 	
+}
+
+header {
+	background-color: var(--color--secondary);
+	padding-block: calc(5 * var(--base-size));
+}
+
+section {
+	block-size: 75vh;
+}
+
+footer {
+	background-color: var(--color--secondary);
+	padding-top: var(--base-size);
+	padding-bottom: calc(5 * var(--base-size));
+}
+
+.gutters {
+	padding-inline: var(--gutter-size);
 }
