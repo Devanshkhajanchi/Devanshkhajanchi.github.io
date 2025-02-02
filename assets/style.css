@@ -2,14 +2,12 @@
 	--base-size: 12px;
 	--gutter-size: calc(3 * var(--base-size));
 
-	--color--primary: black;
-	--color--secondary: rgb(177, 0, 0);
-	--color--background: white;
+	--color-primary: black;
 	
 }
 
-header {
-	background-color: var(--color--secondary);
+/* header {
+	background-color: var(--color-secondary);
 	padding-block: calc(5 * var(--base-size));
 }
 
@@ -18,11 +16,47 @@ section {
 }
 
 footer {
-	background-color: var(--color--secondary);
+	background-color: var(--color-secondary);
 	padding-top: var(--base-size);
 	padding-bottom: calc(5 * var(--base-size));
 }
 
 .gutters {
 	padding-inline: var(--gutter-size);
+} */
+
+.gutters {
+	margin: 3rem;
+}
+
+header {
+
+}
+
+h1 {
+	font-size: 5rem;
+	padding: 2rem;
+}
+
+p {
+	padding: 2rem;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+
+}
+
+li {
+	height: 10rem;
+}
+
+.project_name {
+	font-size: 3rem;
+	padding: 2rem;
+}
+
+@media screen (min-width: 250px) {
+	
 }
