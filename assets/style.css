@@ -52,7 +52,7 @@ nav {
 	padding: 1.8rem;
 
 	.logo {
-		width: 50px;
+		width: 35px;
 		height: auto;
 	}
 }
@@ -122,6 +122,11 @@ section {
 	}
 }
 
+.section-heading {
+	display: flex;
+	gap: 1rem;
+}
+
 #section-three {
 	background-color: var(--color-soft-white);
 }
@@ -156,6 +161,9 @@ footer {
 /* MEDIA QUERIES */
 
 @media (min-width: 700px) {
+
+	/* SECTIONS */
+
 	.parent-container {
 		display: flex;
 		flex-direction: row;
@@ -163,8 +171,6 @@ footer {
 		gap: 2rem;
 		height: auto;
 	}
-
-	/* SECTIONS */
 
 	section {
 		height: 70vh;
@@ -196,7 +202,7 @@ footer {
 	}
 
 	.website-name {
-		font-size: var(--font-size-h1);
+		font-size: var(--font-size-h2);
 		font-weight: var(--font-weight-medium);
 	}
 }
