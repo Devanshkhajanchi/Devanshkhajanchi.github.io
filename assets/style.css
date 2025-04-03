@@ -14,7 +14,7 @@
 	--font-primary: "Bricolage Grotesque", sans-serif;
 
 	/* FONT WEIGHTS */
-	--font-weight-light: 200;
+	--font-weight-light: 300;
 	--font-weight-regular: 400;
 	--font-weight-medium: 500;
 	--font-weight-bold: 700;
@@ -30,7 +30,7 @@
 	--letter-spacing-wide: 0.02em;
 	
 	/* TYPE SIZES */
-	--font-size-h1: 3rem; /* 48px */
+	--font-size-h1: 3.25rem; /* 48px */
 	--font-size-h2: 2.2rem; /* 40px */
 	--font-size-h3: 2rem; /* 32px */
 	--font-size-h4: 1.5rem; /* 24px */
@@ -78,7 +78,9 @@ p {
 
 .serial-numbers {
 	font-size: calc(var(--font-size-h1)*6);
-	line-height: 72%;
+	letter-spacing: var(--letter-spacing-tight);
+	line-height: 100%;
+	transform: translate(0, 3%);
 }
 
 .website-name {
