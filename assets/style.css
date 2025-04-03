@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-	font-size: var(--font-size-h2);
+	font-size: calc(var(--font-size-h2)*0.8);
 }
 
 p {
@@ -77,8 +77,13 @@ p {
 }
 
 .serial-numbers {
-	font-size: calc(var(--font-size-h1)*8);
+	font-size: calc(var(--font-size-h1)*6);
 	line-height: 72%;
+}
+
+.website-name {
+	font-size: var(--font-size-h1);
+	font-weight: var(--font-weight-medium);
 }
 
 /* SECTIONS */
@@ -104,7 +109,7 @@ p {
 }
 
 section {
-	height: 70vh;
+	height: 90vh;
 }
 
 #section-one, #section-four {
@@ -142,5 +147,35 @@ section {
 		justify-content: space-between;
 		gap: 2rem;
 		height: auto;
+	}
+
+	/* SECTIONS */
+
+	section {
+		height: 70vh;
+	}
+
+	/* TYPE */
+
+	h1 {
+		font-size: var(--font-size-h1);
+		font-weight: var(--font-weight-bold);
+	}
+	
+	h2 {
+		font-size: var(--font-size-h2);
+	}
+	
+	p {
+		font-size: var(--font-size-body);
+		font-weight: var(--font-weight-light);
+		letter-spacing: var(--letter-spacing-wide);
+		line-height: var(--line-height-body);
+		max-width: 55ch;
+	}
+
+	.serial-numbers {
+		font-size: calc(var(--font-size-h1)*8);
+		line-height: 72%;
 	}
 }
