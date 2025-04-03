@@ -82,7 +82,7 @@ p {
 }
 
 .website-name {
-	font-size: var(--font-size-h1);
+	font-size: calc(var(--font-size-h1)*0.5);
 	font-weight: var(--font-weight-medium);
 }
 
@@ -177,5 +177,10 @@ section {
 	.serial-numbers {
 		font-size: calc(var(--font-size-h1)*8);
 		line-height: 72%;
+	}
+
+	.website-name {
+		font-size: var(--font-size-h1);
+		font-weight: var(--font-weight-medium);
 	}
 }
