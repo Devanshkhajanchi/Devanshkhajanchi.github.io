@@ -201,6 +201,23 @@ footer {
 		transform: translate(0, 2%);
 	}
 
+	.elements {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15rem;
+	}
+
+	/* .project-links {
+		display: flex;
+		justify-content: center;
+	} */
+
+	.repo-link {
+
+	}
+
 	.website-name {
 		font-size: var(--font-size-h2);
 		font-weight: var(--font-weight-medium);
