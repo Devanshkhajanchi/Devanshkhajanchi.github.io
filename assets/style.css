@@ -60,7 +60,7 @@ nav {
 /* TYPE HIERARCHY */
 
 h1 {
-	font-size: var(--font-size-h1);
+	font-size: calc(var(--font-size-h1)*0.8);
 	font-weight: var(--font-weight-bold);
 }
 
@@ -77,10 +77,9 @@ p {
 }
 
 .serial-numbers {
-	font-size: calc(var(--font-size-h1)*6);
+	font-size: calc(var(--font-size-h1)*5);
 	letter-spacing: var(--letter-spacing-tight);
 	line-height: 100%;
-	transform: translate(0, 3%);
 }
 
 .website-name {
@@ -111,7 +110,8 @@ p {
 }
 
 section {
-	height: 90vh;
+	height: auto;
+	padding: 2rem;
 }
 
 #section-one, #section-four {
@@ -131,12 +131,25 @@ section {
 }
 
 .sections {
-	padding: 2rem;
 	align-content: center;
 	justify-items: center;
 
 	div {
 		max-width: auto;
+	}
+}
+
+/* FOOTER */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	height: auto;
+	padding: 2rem;
+	.logo {
+		width: 35px;
+		height: auto;
 	}
 }
 
@@ -178,7 +191,8 @@ section {
 
 	.serial-numbers {
 		font-size: calc(var(--font-size-h1)*8);
-		line-height: 72%;
+		line-height: 70%;
+		transform: translate(0, 2%);
 	}
 
 	.website-name {
